@@ -38,3 +38,6 @@ server.on('error', (err) => {
 })
 ;
 
+
+const hostname = '65.0.178.216'; // Use localhost for local development
+const port = 4000;4444444444444444444444444444444444444444ttttttttt
