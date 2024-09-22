@@ -37,4 +37,6 @@ server.on('error', (err) => {
     console.error('Server error:', err);
 })
 ;
-
+const hostname = '65.0.178.216'; // Use localhost for local development
+const port = 4000;
+1111111111111111111111111111111111111111111111111111
