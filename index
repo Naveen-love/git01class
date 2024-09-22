@@ -15,4 +15,26 @@ server.listen(port, hostname, () => {
 // Optional: Error handling
 server.on('error', (err) => {
     console.error('Server error:', err);
+})
+;
+
+const hostname = '65.0.178.216'; // Use localhost for local development
+const port = 4000;
+
+const server = http.createServer((req, res) => {
+    res.statusCode = 200;
+    res.setHeader('Content-Type', 'text/plain');
+    res.end('Hello World\n');
 });
+
+// Start the server
+server.listen(port, hostname, () => {
+    console.log(`Server running at http://${hostname}:${port}/`);
+});
+
+// Optional: Error handling
+server.on('error', (err) => {
+    console.error('Server error:', err);
+})
+;
+
